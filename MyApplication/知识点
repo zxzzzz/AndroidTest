@@ -1,0 +1,18 @@
+android上文件如果没有后缀打不开？ 如返回的是png 类型，如果没有png后缀打不开？需要自己选择程序打开吧，后缀只是一个标识。
+RXJava响应编程，利用了观察者模式。
+Retrofit的参数注解，@url全路径复写如何使用？如果是写一个下载程序，输入网址在下载，那baserl都不同，可以不使用baseurl吗？
+文件读写模板{
+1.随即读取{RandomAccessFile()}
+2.按行读取{BufferedReader.readLine()}
+	面向行的格式化文件
+3.按字符读取{1.多个字符:InputStreamReader.read()}
+	文本，数字
+4.字节读取{1.一个字节：read()2.多个字节:InputStream.byte[]}
+	二进制文件，图片，声音，影响
+
+Http协议 响应信息：响应头，响应码，响应体，描述信息，请求协议
+String不是基本数据类型
+基本数据类型：int 32， byte 8， char 16， long 64，float 32，double 64，short 16，boolean，void  
+包装器类型 ：Integer ,Byte,Long,Float,Double,Short,Boolean,Void
+包装器类型和基本数据类型可以相互转换，集合中需要对象，不可以用基本数据类型。
+
